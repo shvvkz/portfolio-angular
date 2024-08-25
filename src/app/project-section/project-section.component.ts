@@ -8,6 +8,7 @@ interface Project {
   name: string;
   category: string;
   languages: string[];
+  languagesNames: string[];
   images: string[];
   finished: boolean;
   isVisible: boolean;

@@ -12,7 +12,6 @@
     </div>
   </div>
 </section>
-
 <!-- Portfolio Details Section -->
 <section id="portfolio-details" class="portfolio-details" *ngIf="project">
   <div class="container">
@@ -43,6 +42,11 @@
             <li><strong>URL du projet</strong>: 
               <a id="text_3" [href]="project.link" target="_blank">{{ project.link ? 'Voir le projet' : 'NON DISPONIBLE' }}</a>
             </li>
+            <li><strong>Languages</strong>: 
+              <span *ngFor="let language of project.languages; let last = last">
+                <i class="devicon-{{language}} colored"></i><span *ngIf="!last">, </span>
+              </span>
+            </li>
           </ul>
         </div>
         <div class="portfolio-description">
@@ -53,5 +57,6 @@
     </div>
   </div>
 </section>
+
 
 <app-footer-section class="custom-footer-background"></app-footer-section>

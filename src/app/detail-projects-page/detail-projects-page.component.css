@@ -115,3 +115,8 @@ li > a{
     padding: 0;
   }
 
+  .portfolio-info i {
+    font-size: 1.5rem; /* Ajustez cette valeur selon la taille désirée */
+    line-height: 1; /* Pour un alignement vertical centré */
+    vertical-align: middle; /* Pour centrer les icônes par rapport au texte */
+}

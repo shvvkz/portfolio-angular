@@ -13,6 +13,7 @@ interface Project {
   link: string;
   images: string[];
   languages: string[];
+  languagesNames: string[];
   finished: boolean;
   description: string;
 }
