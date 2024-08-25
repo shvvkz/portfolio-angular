@@ -6,7 +6,9 @@
     margin: 0 auto;
     gap: 10px; /* Espace entre les boutons */
 }
-
+.techno-dark{
+    padding-bottom: 4vh;
+}
 .button-techno-light,
 .button-techno-dark {
     border-radius: 8px;

@@ -19,7 +19,7 @@
     <div class="row gy-4">
       <div class="col-lg-8">
         <div *ngIf="project.images.length > 1; else singleImage" class="portfolio-details-slider swiper">
-          <div class="swiper-wrapper align-items-center">
+          <div class="swiper-wrapper" style="align-items: center;">
             <div class="swiper-slide" *ngFor="let image of project.images">
               <img [src]="image" alt="{{ project.name }}">
             </div>
