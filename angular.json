@@ -39,7 +39,8 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/bootstrap-icons/font/bootstrap-icons.css",
               "node_modules/aos/dist/aos.css",
-              "node_modules/boxicons/css/boxicons.min.css"
+              "node_modules/boxicons/css/boxicons.min.css",
+              "node_modules/swiper/swiper-bundle.min.css"
             ],
             "scripts": [
               "node_modules/aos/dist/aos.js",

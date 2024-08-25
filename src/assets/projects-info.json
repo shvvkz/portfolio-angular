@@ -1,0 +1,69 @@
+{
+    "projects":[
+        {
+            "id": "1",
+            "name": "Trouve ton plat",
+            "categoryName": "Site Web",
+            "category": "Sites Web",
+            "client": "IUT Lyon 1 (projet noté)",
+            "date": "23 Janvier 2022",
+            "link": "",
+            "images": ["assets/img/portfolio/trouvetonplat.jpg", "assets/img/portfolio/trouvetonplat2.jpg", "assets/img/portfolio/trouvetonplat3.jpg"],
+            "languages": ["PHP", "HTML", "CSS", "JavaScript"],
+            "finished": true,
+            "description": "Ce site web a été créé par 4 développeurs dans le cadre d'un projet noté à notre université. Nous l'avons réalisé en PHP et c'était notre premier projet utilisant ce langage. Le but de ce site était de créer une communauté de cuisiniers. Vous pouvez vous inscrire pour faire partie de cette communauté et créer un plat. Vous pouvez également participer à des événements avec toute la communauté, où vous deviez présenter un de vos meilleurs plats. Et la communauté peut le noter."
+        },
+        {
+            "id": "2",
+            "name": "Système Solaire",
+            "categoryName": "Modélisation 3D",
+            "category": "Modélisations 3D",
+            "client": "IUT Lyon 1 (projet noté)",
+            "date": "30 Septembre 2023",
+            "link": "https://solar-system-nine-kappa.vercel.app/",
+            "images": ["assets/img/portfolio/solarsystem.jpg", "assets/img/portfolio/solarsystem2.jpg"],
+            "languages": ["ThreeJs", "JavaScript"],
+            "finished": true,
+            "description": "Ce site web a été réalisé avec THREE.JS. C'était mon premier projet utilisant THREE.JS, donc j'ai essayé de créer un système solaire. Ce site est une visualisation de notre système solaire. Il est conçu avec un constructeur qui crée des planètes et les fait orbiter autour du soleil."
+        },
+        {
+            "id": "3",
+            "name": "Pacman",
+            "categoryName": "Jeu",
+            "category": "Jeux",
+            "client": "Aucun",
+            "date": "18 Décembre 2022",
+            "link": "http://p2102056.pages.univ-lyon1.fr/site-pacman/main.html",
+            "images": ["assets/img/portfolio/pacman.jpg", "assets/img/portfolio/pacman2.jpg", "assets/img/portfolio/pacman3.jpg", "assets/img/portfolio/pacman4.jpg"],
+            "languages": ["JavaScript", "HTML", "CSS"],
+            "finished": true,
+            "description": "Ce site web a été créé avec JavaScript. Le but de ce site est de jouer à Pacman avec un système de score et une session, afin que vous puissiez jouer avec vos amis lors d'une soirée et voir qui sera le meilleur ! J'ai créé une petite animation lorsque vous accédez au site."
+        },
+        {
+            "id": "4",
+            "name": "Jeu d'échecs",
+            "categoryName": "Jeux",
+            "category": "Jeux",
+            "client": "Aucun",
+            "date": "07 Avril 2023",
+            "link": "",
+            "images": ["assets/img/portfolio/chessgame.jpg"],
+            "languages": ["Javascript", "HTML", "CSS"],
+            "finished": false,
+            "description": "Ce jeu est développé en JavaScript. Son objectif était de m'entraîner à utiliser JavaScript de manière efficace, et un jeu d'échecs n'est pas si facile à développer. Il n'est actuellement pas terminé."
+        },
+        {
+            "id": "5",
+            "name": "Visualiseur Audio",
+            "categoryName": "Modélisation 3D",
+            "category": "Modélisations 3D",
+            "client": "Aucun",
+            "date": "22 Novembre 2023",
+            "link": "https://audio-visualizer-mauve.vercel.app/",
+            "images": ["assets/img/portfolio/audioVi.png"],
+            "languages": ["ThreeJs", "JavaScript"],
+            "finished": true,
+            "description": "Ce site web est réalisé avec THREE.JS. C'est un site où vous pouvez donner un fichier audio, et la sphère se déplacera en fonction de la musique."
+        }
+    ]
+}

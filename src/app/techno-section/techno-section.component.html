@@ -1,0 +1,143 @@
+<section id="techno" class="techno techno-dark" class="pb-10">
+    <div class="container" data-aos="fade-up">
+      <div class=" text-center" style="padding-top:10vh">
+        <h2 class="h2-dark" style="margin-bottom: 3vh;">Technologies</h2>
+        <p>Voici les technologies que je maîtrise grâce à mon apprentissage : à l'IUT, en entreprise, en autodidacte.</p>
+        <div class="container-button-techno">
+          <div class="button-techno-dark techno-selected-dark">Languages</div>
+          <div class="button-techno-dark">Frameworks</div>
+          <div class="button-techno-dark">Databases</div>
+          <div class="button-techno-dark">DevTools</div>
+          <div class="button-techno-dark">DevOps</div>
+        </div>
+      </div>
+  
+      <div class="container-techno">
+        <div [@detailVisibility]="isTechnoVisible(0) ? 'visible' : 'hidden'" id="techno-language">
+          <div class="container-bloc-techno">
+            <div class="bloc-techno-dark bloc-techno">
+              <p>Python</p>
+              <i class="devicon-python-plain colored"></i>
+            </div>
+            <div class="bloc-techno-dark bloc-techno">
+              <p>Rust</p>
+              <i class="devicon-rust-plain colored"></i>
+            </div>
+            <div class="bloc-techno-dark bloc-techno">
+              <p>HTML</p>
+              <i class="devicon-html5-plain colored"></i>
+            </div>
+            <div class="bloc-techno-dark bloc-techno">
+              <p>CSS</p>
+              <i class="devicon-css3-plain colored"></i>
+            </div>
+            <div class="bloc-techno-dark bloc-techno">
+              <p>JS</p>
+              <i class="devicon-javascript-plain colored"></i>
+            </div>
+          </div>
+        </div>
+         <div [@detailVisibility]="isTechnoVisible(0) ? 'visible' : 'hidden'" id="techno-language">
+            <div class="container-bloc-techno">
+              <div class="bloc-techno-dark bloc-techno">
+                <p>Java</p>
+                <i class="devicon-java-plain colored"></i>
+              </div>
+              <div class="bloc-techno-dark bloc-techno">
+                <p>C</p>
+                <i class="devicon-c-plain colored"></i>
+              </div>
+              <div class="bloc-techno-dark bloc-techno">
+                <p>PHP</p>
+                <i class="devicon-php-plain colored"></i>
+              </div>
+              <div class="bloc-techno-dark bloc-techno">
+                <p>Typescript</p>
+                <i class="devicon-typescript-plain colored"></i>
+              </div>
+            </div>
+          </div>
+  
+        <div [@detailVisibility]="isTechnoVisible(1) ? 'visible' : 'hidden'" id="techno-framework" style="display: none;">
+          <div class="container-bloc-techno">
+            <div class="bloc-techno-dark bloc-techno">
+              <p>Django</p>
+              <i class="devicon-django-plain colored"></i>
+            </div>
+            <div class="bloc-techno-dark bloc-techno">
+              <p>Tauri</p>
+              <i class="devicon-tauri-plain colored"></i>
+            </div>
+            <div class="bloc-techno-dark bloc-techno">
+              <p>Express.js</p>
+              <i class="devicon-express-original colored"></i>
+            </div>
+            <div class="bloc-techno-dark bloc-techno">
+              <p>Angular</p>
+              <i class="devicon-angularjs-plain colored"></i>
+            </div>                  
+          </div>
+        </div>
+  
+        <div [@detailVisibility]="isTechnoVisible(2) ? 'visible' : 'hidden'" id="techno-database" style="display: none;">
+          <div class="container-bloc-techno">
+            <div class="bloc-techno-dark bloc-techno">
+              <p>MySQL</p>
+              <i class="devicon-mysql-plain colored"></i>
+            </div>
+            <div class="bloc-techno-dark bloc-techno">
+              <p>MongoDB</p>
+              <i class="devicon-mongodb-plain colored"></i>
+            </div>
+            <div class="bloc-techno-dark bloc-techno">
+              <p>SQLite</p>
+              <i class="devicon-sqlite-plain colored"></i>
+            </div>                  
+          </div>
+        </div>
+  
+        <div [@detailVisibility]="isTechnoVisible(3) ? 'visible' : 'hidden'" id="techno-devtool" style="display: none;">
+          <div class="container-bloc-techno">
+            <div class="bloc-techno-dark bloc-techno">
+              <p>Git</p>
+              <i class="devicon-git-plain colored"></i>
+            </div>
+            <div class="bloc-techno-dark bloc-techno">
+              <p>GitHub</p>
+              <i class="devicon-github-original colored"></i>
+            </div>
+            <div class="bloc-techno-dark bloc-techno">
+              <p>GitLab</p>
+              <i class="devicon-gitlab-plain colored"></i>
+            </div>
+            <div class="bloc-techno-dark bloc-techno">
+              <p>Linux</p>
+              <i class="devicon-linux-plain colored"></i>
+            </div>
+            <div class="bloc-techno-dark bloc-techno">
+              <p>Windows</p>
+              <i class="devicon-windows8-original colored"></i>
+            </div>                  
+          </div>
+        </div>
+  
+        <div [@detailVisibility]="isTechnoVisible(4) ? 'visible' : 'hidden'" id="techno-devops" style="display: none;">
+          <div class="container-bloc-techno">
+            <div class="bloc-techno-dark bloc-techno">
+              <p>Docker</p>
+              <i class="devicon-docker-plain colored"></i>
+            </div>
+            <div class="bloc-techno-dark bloc-techno">
+              <p>CI/CD</p>
+              <i class="devicon-gitlab-plain colored"></i>
+            </div>
+            <div class="bloc-techno-dark bloc-techno">
+              <p>SonarQube</p>
+              <i class="devicon-sonarqube-plain colored"></i>
+            </div>                  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  

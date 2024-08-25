@@ -1,18 +1,17 @@
-<header id="header" class="fixed-top header-dark header-inner-pages">
-    <div class="container d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo"><img id="logo_img" src="assets/img/logo-dark.png" alt="" class="img-fluid"></a>
-  
-      <nav id="navbar" class="navbar">
-        <ul class="ul-dark">
-          <li><a class="nav-link nav-dark scrollto active" href="index.html#hero">Accueil</a></li>
-          <li><a class="nav-link nav-dark scrollto" href="index.html#about">À Propos</a></li>
-          <li><a class="nav-link nav-dark scrollto" href="index.html#portfolio">Projets</a></li>
-          <li><a class="nav-link nav-dark scrollto" href="index.html#techno">Technologies</a></li>
-          <li><a class="nav-link nav-dark scrollto" href="index.html#skills">Compétences</a></li>
-          <li><a class="nav-link nav-dark scrollto" href="index.html#resume">Historique</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-    </div>
-  </header><!-- End Header -->
-  
+<header id="header" class=" header-dark" [ngClass]="{'header-inner-pages': isDetailPage}" [ngClass]="{'fixed-top': !isDetailPage}">
+  <div class="container d-flex align-items-center justify-content-between">
+    <a href="index.html" class="logo"><img id="logo_img" src="assets/img/logo-dark.png" alt="" class="img-fluid"></a>
+
+    <nav id="navbar" class="navbar">
+      <ul class="ul-dark">
+        <li><a class="nav-link nav-dark scrollto active" href="index.html#hero">Accueil</a></li>
+        <li><a class="nav-link nav-dark scrollto" href="index.html#about">À Propos</a></li>
+        <li><a class="nav-link nav-dark scrollto" href="index.html#portfolio">Projets</a></li>
+        <li><a class="nav-link nav-dark scrollto" href="index.html#techno">Technologies</a></li>
+        <li><a class="nav-link nav-dark scrollto" href="index.html#skills">Compétences</a></li>
+        <li><a class="nav-link nav-dark scrollto" href="index.html#resume">Historique</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+  </div>
+</header><!-- End Header -->

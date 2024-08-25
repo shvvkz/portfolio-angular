@@ -1,0 +1,53 @@
+#services {
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.services {
+    background: #1b1b1b;
+}
+
+.services-block span {
+    margin: 10px 0;
+    position: relative;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    color: #ffffff; /* Assurez-vous que le texte du span est blanc */
+}
+
+.services-block .separator {
+    margin: 0;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.services-block-dark i {
+    font-size: 44px;
+    color: #f39ef3;
+    line-height: 44px;
+}
+
+/* Pagination Styling */
+.services-slider .swiper-pagination {
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.services-slider .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background-color: #111111 !important;
+    border: 1px solid #af70af !important;
+    margin: 0 5px;
+}
+
+.services-slider .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #69069e !important;
+}
+

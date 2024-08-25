@@ -1,0 +1,129 @@
+.container-button-techno {
+    width: 70%; /* Réduction de la largeur du conteneur */
+    display: flex;
+    justify-content: center; /* Alignement au centre */
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 10px; /* Espace entre les boutons */
+}
+
+.button-techno-light,
+.button-techno-dark {
+    border-radius: 8px;
+    padding: 6px 10px; /* Réduction du padding */
+    transition: all 0.3s ease;
+    flex: 0 1 auto;
+    text-align: center;
+    min-width: 80px; /* Réduction de la largeur minimale */
+    margin: 5px; /* Espace autour de chaque bouton */
+    cursor: pointer;
+}
+
+.button-techno-light {
+    background-color: #f7f7f7;
+    color: #69069e;
+    border: 2px solid #69069e;
+}
+
+.button-techno-dark {
+    background-color: #1b1b1b;
+    color: #f39ef3;
+    border: 2px solid #f39ef3;
+}
+
+.button-techno-light:hover {
+    background-color: #69069e;
+    color: #f7f7f7;
+}
+
+.button-techno-dark:hover {
+    background-color: #f39ef3;
+    color: #1b1b1b;
+}
+
+.techno-selected-light {
+    background-color: #69069e;
+    color: #f7f7f7;
+}
+
+.techno-selected-dark {
+    background-color: #f39ef3;
+    color: #1b1b1b;
+}
+
+.container-bloc-techno {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Réduction de l'espace entre les blocs */
+    max-width: 80%; /* Réduction de la largeur du conteneur */
+    margin: 0 auto;
+}
+
+.bloc-techno-light,
+.bloc-techno-dark {
+    border-radius: 8px;
+    padding: 12px; /* Réduction du padding */
+    margin-top: 1.5vh; /* Réduction de la marge supérieure */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1 1 calc(20% - 10px); /* Réduction de la largeur des éléments */
+    box-sizing: border-box;
+}
+
+.bloc-techno-light {
+    background-color: #f7f7f7;
+    color: #69069e;
+    border: 2px solid #69069e;
+}
+
+.bloc-techno-dark {
+    background-color: #1b1b1b;
+    color: #f39ef3;
+    border: 2px solid #f39ef3;
+}
+
+.bloc-techno-light p,
+.bloc-techno-dark p {
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.5vh;
+    font-size: 1.2vh;
+}
+
+.bloc-techno-light p {
+    color: #69069e;
+}
+
+.bloc-techno-dark p {
+    color: #f39ef3;
+}
+
+.bloc-techno-light i,
+.bloc-techno-dark i {
+    font-size: 2.5rem; /* Réduction de la taille des icônes */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .bloc-techno-light, .bloc-techno-dark {
+        flex: 1 1 calc(25% - 10px); /* 4 éléments par ligne */
+    }
+}
+
+@media (max-width: 768px) {
+    .bloc-techno-light, .bloc-techno-dark {
+        flex: 1 1 calc(50% - 10px); /* 2 éléments par ligne */
+    }
+}
+
+@media (max-width: 480px) {
+    .bloc-techno-light, .bloc-techno-dark {
+        flex: 1 1 calc(100% - 10px); /* 1 élément par ligne */
+    }
+}
