@@ -17,6 +17,7 @@
     min-width: 80px; /* Réduction de la largeur minimale */
     margin: 5px; /* Espace autour de chaque bouton */
     cursor: pointer;
+
 }
 
 .button-techno-light {
@@ -72,6 +73,12 @@
     text-align: center;
     flex: 1 1 calc(20% - 10px); /* Réduction de la largeur des éléments */
     box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+.bloc-techno-dark:hover {
+    animation: bounce 0.4s ease-in-out forwards;
+    background-color: #141414;
 }
 
 .bloc-techno-light {
@@ -125,5 +132,17 @@
 @media (max-width: 480px) {
     .bloc-techno-light, .bloc-techno-dark {
         flex: 1 1 calc(100% - 10px); /* 1 élément par ligne */
+    }
+}
+
+@keyframes bounce {
+    0%{
+        transform: scale(1); /* Échelle initiale et finale */
+    }
+    20% {
+        transform: scale(0.98); /* Réduction de l'échelle */
+    }
+    100% {
+        transform: scale(1.03); /* Retour à une échelle légèrement augmentée */
     }
 }

@@ -36,7 +36,7 @@
             "link": "http://p2102056.pages.univ-lyon1.fr/site-pacman/main.html",
             "images": ["assets/img/portfolio/pacman.jpg", "assets/img/portfolio/pacman2.jpg", "assets/img/portfolio/pacman3.jpg", "assets/img/portfolio/pacman4.jpg"],
             "languages": ["JavaScript", "HTML", "CSS"],
-            "finished": true,
+            "finished": false,
             "description": "Ce site web a été créé avec JavaScript. Le but de ce site est de jouer à Pacman avec un système de score et une session, afin que vous puissiez jouer avec vos amis lors d'une soirée et voir qui sera le meilleur ! J'ai créé une petite animation lorsque vous accédez au site."
         },
         {

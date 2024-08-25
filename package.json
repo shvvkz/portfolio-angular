@@ -20,12 +20,15 @@
     "@angular/router": "^17.3.0",
     "@fortawesome/fontawesome-free": "^6.6.0",
     "aos": "^2.3.4",
+    "autoprefixer": "^10.4.20",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "boxicons": "^2.1.4",
     "isotope-layout": "^3.0.6",
+    "postcss": "^8.4.41",
     "rxjs": "~7.8.0",
     "swiper": "^11.1.10",
+    "tailwindcss": "^3.4.10",
     "tslib": "^2.3.0",
     "typed.js": "^2.1.0",
     "zone.js": "~0.14.3"
@@ -37,15 +40,12 @@
     "@types/aos": "^3.0.7",
     "@types/isotope-layout": "^3.0.13",
     "@types/jasmine": "~5.1.0",
-    "autoprefixer": "^10.4.20",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "postcss": "^8.4.41",
-    "tailwindcss": "^3.4.10",
     "typescript": "~5.4.2"
   }
 }

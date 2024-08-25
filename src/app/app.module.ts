@@ -14,6 +14,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterSectionComponent } from './footer-section/footer-section.component';
 import { DetailProjectsPageComponent } from './detail-projects-page/detail-projects-page.component';
 import { TechnoSectionComponent } from './techno-section/techno-section.component';
+import { SkillsSectionComponent } from './skills-section/skills-section.component';
+import { ResumeSectionComponent } from './resume-section/resume-section.component';
 
 register();
 
@@ -28,7 +30,9 @@ register();
     ProjectSectionComponent,
     FooterSectionComponent,
     DetailProjectsPageComponent,
-    TechnoSectionComponent
+    TechnoSectionComponent,
+    SkillsSectionComponent,
+    ResumeSectionComponent
   ],
   imports: [
     BrowserAnimationsModule,
