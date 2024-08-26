@@ -1,0 +1,97 @@
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/coverage
+
+# Angular project specific
+.angular/cache
+.angular/cli
+.angular/schematics
+
+# Node
+node_modules
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# System Files
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+.vscode/*
+.history/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Local Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env
+.env.test
+.env.production
+
+# Karma test coverage
+coverage/
+
+# Compiled TypeScript
+*.tsbuildinfo
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
