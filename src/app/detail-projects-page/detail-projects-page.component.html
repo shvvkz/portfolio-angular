@@ -42,7 +42,7 @@
             <li><strong>URL du projet</strong>: 
               <a id="text_3" [href]="project.link" target="_blank">{{ project.link ? 'Voir le projet' : 'NON DISPONIBLE' }}</a>
             </li>
-            <li><strong>Languages</strong>: 
+            <li><strong>Langages</strong>: 
               <span *ngFor="let language of project.languages; let last = last">
                 <i class="devicon-{{language}} colored"></i><span *ngIf="!last">, </span>
               </span>
