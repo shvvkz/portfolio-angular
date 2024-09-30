@@ -107,8 +107,8 @@
             "date": "12 Septembre 2024",
             "link": "https://github.com/shvvkz/stat-summoner",
             "images": ["assets/img/portfolio/statsummoner.jpg", "assets/img/portfolio/statsummoner2.jpg", "assets/img/portfolio/statsummoner3.jpg", "assets/img/portfolio/statsummoner4.jpg"],
-            "languages": ["rust-plain"],
-            "languagesNames": ["Rust"],
+            "languages": ["rust-plain", "mongodb-plain"],
+            "languagesNames": ["Rust", "MongoDB"],
             "finished": true,
             "description": "Stat Summoner est un bot Discord développé en Rust et déployé via Shuttle. Il est conçu pour fournir des statistiques détaillées pour les joueurs de League of Legends. Grâce à l'intégration de l'API de Riot Games, le bot permet aux utilisateurs de récupérer des informations telles que le rang Solo/Duo et Flex, les champions avec le plus de points de maîtrise, ainsi que les détails des matchs récents (K/D/A, farm, résultats). Les réponses sont envoyées sous forme de messages clairs et formatés, directement dans les canaux Discord via des commandes slash comme /lolstats. Toute la documentation du projet est accessible en ligne grâce à une pipeline CI/CD complète, facilitant ainsi le déploiement continu et la transparence du code. Pour plus d'informations ou pour tester le bot, visitez le dépôt GitHub."
         }
