@@ -39,12 +39,18 @@
             <li><strong>Catégorie</strong>: {{ project.categoryName }}</li>
             <li><strong>Client</strong>: {{ project.client }}</li>
             <li><strong>Date du projet</strong>: {{ project.date }}</li>
-            <li><strong>URL du projet</strong>: 
+            <li><strong>URL du projet</strong>:
               <a id="text_3" [href]="project.link" target="_blank">{{ project.link ? 'Voir le projet' : 'NON DISPONIBLE' }}</a>
             </li>
-            <li><strong>Langages</strong>: 
+            <li><strong>Languages</strong>:
               <span *ngFor="let language of project.languages; let last = last">
-                <i class="devicon-{{language}} colored"></i><span *ngIf="!last">, </span>
+                <ng-container *ngIf="language === 'shuttle'; else defaultIcon">
+                  <i class="custom-shuttle-icon"></i>
+                </ng-container>
+                <ng-template #defaultIcon>
+                  <i class="devicon-{{language}} colored"></i>
+                </ng-template>
+                <span *ngIf="!last">, </span>
               </span>
             </li>
           </ul>

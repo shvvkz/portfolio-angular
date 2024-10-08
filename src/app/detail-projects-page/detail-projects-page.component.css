@@ -120,3 +120,12 @@ li > a{
     line-height: 1; /* Pour un alignement vertical centré */
     vertical-align: middle; /* Pour centrer les icônes par rapport au texte */
 }
+
+.custom-shuttle-icon {
+  background-image: url('../../assets/img/icons/shuttle.svg');
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
