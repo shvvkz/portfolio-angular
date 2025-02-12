@@ -111,6 +111,20 @@
             "languagesNames": ["Rust", "MongoDB", "Shuttle"],
             "finished": true,
             "description": "Stat Summoner - Beeanna est un bot Discord développé en Rust et déployé via Shuttle. Il est conçu pour fournir des statistiques détaillées pour les joueurs de League of Legends. Grâce à l'intégration de l'API de Riot Games, le bot permet aux utilisateurs de récupérer des informations telles que le rang Solo/Duo et Flex, les champions avec le plus de points de maîtrise, ainsi que les détails des matchs récents (K/D/A, farm, résultats). Les réponses sont envoyées sous forme de messages clairs et formatés, directement dans les canaux Discord via des commandes slash comme /lolstats. Toute la documentation du projet est accessible en ligne grâce à une pipeline CI/CD complète, facilitant ainsi le déploiement continu et la transparence du code. Pour plus d'informations ou pour tester le bot, visitez le dépôt GitHub."
+        },
+        {
+            "id": "9",
+            "name": "Own Language",
+            "categoryName": "Langage",
+            "category": "Langages",
+            "client": "Aucun",
+            "date": "8 février 2025",
+            "link": "https://github.com/shvvkz/own-lang.git",
+            "images": ["assets/img/portfolio/ownlang.png"],
+            "languages": ["rust-plain"],
+            "languagesNames": ["Rust"],
+            "finished": false,
+            "description": "Own-Lang est un langage de programmation personnalisé développé pour explorer la construction de compilateurs, l'analyse syntaxique et la génération de code assembleur. Ce projet, écrit en Rust, comprend un pipeline complet qui convertit la syntaxe Own-Lang en un arbre syntaxique abstrait (AST) et génère du code assembleur NASM pour l'architecture x86_64. Les fonctionnalités incluent la prise en charge de la définition de fonctions, des déclarations de variables, des expressions arithmétiques, ainsi que des structures de contrôle telles que les boucles for, while et les instructions conditionnelles if. Le projet est structuré avec des dossiers dédiés pour les fichiers source (/src) et des exemples de code Own-Lang (/own_files). Pour plus d'informations ou pour explorer le code, visitez le dépôt GitHub."
         }
     ]
 }
