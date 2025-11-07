@@ -114,6 +114,20 @@
         },
         {
             "id": "9",
+            "name": "SWbox",
+            "categoryName": "Application",
+            "category": "Applications",
+            "client": "Aucun",
+            "date": "17 Novembre 2024",
+            "link": "https://bot-swbox.netlify.app/",
+            "images": ["assets/img/portfolio/swbox.jpg", "assets/img/portfolio/swbox1.png", "assets/img/portfolio/swbox2.png", "assets/img/portfolio/swbox3.png", "assets/img/portfolio/swbox4.png", "assets/img/portfolio/swbox5.png"],
+            "languages": ["rust-plain", "mongodb-plain", "shuttle"],
+            "languagesNames": ["Rust", "MongoDB", "Shuttle"],
+            "finished": true,
+            "description": "SWbox est un bot Discord développé en Rust par B4tiste et moi-même. Il est conçu pour fournir des statistiques détaillées pour les joueurs du jeu Summoners War. Le projet est maintenu avec une pipeline CI/CD assurant un déploiement continu et une transparence complète du code. Pour plus d’informations ou pour tester le bot, visitez le dépôt GitHub."
+        },
+        {
+            "id": "10",
             "name": "Own Language",
             "categoryName": "Langage",
             "category": "Langages",
